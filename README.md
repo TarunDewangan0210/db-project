@@ -86,4 +86,18 @@ The application will be available at:
 
 - Databases:
   - PostgreSQL
-  - MongoDB 
+  - MongoDB
+
+## Environment Variables
+
+This project uses environment variables for configuration. A sample file named `.env.sample` is provided in the repository.
+
+### How to use `.env.sample`
+
+1. Copy the `.env.sample` file to a new file named `.env` in the project root:
+   ```sh
+   cp .env.sample .env
+   ```
+2. Open the `.env` file and update the values as needed for your local setup.
+
+The application will automatically load environment variables from the `.env` file.
